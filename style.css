@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-card {
+  height: 138px;
+  width: 457px;
+  display: flex;
+  padding: 4px;
+}
+
+.mosh-img {
+  width: 130px;
+  height: 130px;
+}
+.twitter-id {
+  margin: 0 0 14px 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+.tweet-text {
+  margin: 0 0 24px 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+.icon-container {
+  display: flex;
+}
+.icons {
+  height: 20px;
+  width: 20px;
+  margin: 0 14px 0 14px;
+}
+
+.numbers {
+  margin-right: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #858991;
+}
