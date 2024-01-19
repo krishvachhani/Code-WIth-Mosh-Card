@@ -19,6 +19,11 @@ body {
   width: 130px;
   height: 130px;
 }
+.all-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .twitter-id {
   margin: 0 0 14px 14px;
   font-family: "Roboto", sans-serif;
@@ -35,6 +40,8 @@ body {
 }
 .icon-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .icons {
   height: 20px;
